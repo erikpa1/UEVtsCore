@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 
 /**
- * 
+ *
  */
 class UEVTSCORE_API UsersApi
 {
