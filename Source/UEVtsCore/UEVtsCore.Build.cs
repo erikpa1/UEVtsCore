@@ -8,7 +8,12 @@ public class UEVtsCore : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "HTTP","Json", "CoreUObject", "Engine", "InputCore" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core",
+            "HTTP","Json", "CoreUObject",
+            "Engine",
+            "InputCore"            ,
+            "UMG" //Toto je na pracu s widgetmi v C++
+        });
 
         PrivateDependencyModuleNames.AddRange(new string[] { });
 
